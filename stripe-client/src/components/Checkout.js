@@ -10,7 +10,7 @@ export default class Checkout extends Component {
 
   render() {
     return (
-      <StripeProvider apiKey="pk_test_qLJ11MAZObOKOZOjrowA1NUn00StmA774f">
+      <StripeProvider apiKey="pk_test_liucQJrwQgW2LLbBgqcatdr600jjxv731D">
         <Elements>
           <CheckoutForm
             selectedProduct={this.props.selectedProduct}
